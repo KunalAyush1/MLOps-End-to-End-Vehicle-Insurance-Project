@@ -9,3 +9,9 @@
 4. MongoDB Atlas login..create a project => create a cluster using M0 service
      setup username and password
      Network access => ip = 0.0.0.0/0
+     go back to project and then click on Get connection string -> drivers ->python with latest version
+     copy the string and save it
+5. create a folder named "notebook" >>add the dataset>> "mongodb_demo.ipynb">>kernel = python kernel>vehicle
+6. push our data to MongoDB using the mongodb_demo notebook code
+7.Go to MongoDB Atlas >> Database>> Browse Collection >> see your data in key-value pair
+8. write the logger file and test it on demo.py
